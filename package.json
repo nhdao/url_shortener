@@ -1,0 +1,30 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "this is my url shortener service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhdao/url_shortener.git"
+  },
+  "author": "nhdao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhdao/url_shortener/issues"
+  },
+  "homepage": "https://github.com/nhdao/url_shortener#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
